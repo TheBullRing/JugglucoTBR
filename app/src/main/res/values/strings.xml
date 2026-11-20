@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="watch_face_name">JugglucoTBR</string>
+
+    <string name="colors_label">Color theme</string>
+    <string name="theme_pixel_blue">Pixel Blue</string>
+    <string name="theme_libre_orange">Libre Orange</string>
+    <string name="theme_green">Green</string>
+    <string name="theme_red">Red</string>
+    <string name="theme_purple">Purple</string>
+    <string name="theme_cyan">Cyan</string>
+    <string name="theme_yellow">Yellow</string>
+    <string name="theme_monochrome">Monochrome</string>
+
+    <string name="glucose_complication_label">Glucose</string>
+    <string name="delta_complication_label">Glucose delta</string>
+    <string name="age_complication_label">Reading age</string>
+    <string name="slot1_complication_label">Row 1 right</string>
+    <string name="slot2_complication_label">Row 2 left</string>
+
+    <!-- Used by the reading-age text, e.g. "2 min ago" -->
+    <string name="min_ago">min ago</string>
+</resources>

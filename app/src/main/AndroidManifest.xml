@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <!-- Note: hasCode is required to be false for Watch Face Format -->
+    <application
+        android:allowBackup="false"
+        android:hasCode="false"
+        android:icon="@drawable/icon"
+        android:label="@string/watch_face_name">
+
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+        <!-- WFF v2 (Wear OS 5): required for GOAL_PROGRESS complications. Must be a literal. -->
+        <property
+            android:name="com.google.wear.watchface.format.version"
+            android:value="2" />
+    </application>
+</manifest>
